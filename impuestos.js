@@ -17,7 +17,7 @@ export default class nuevos_impuestos { //Definicion de clase y constructora de 
         this._deducciones = nuevas_deducciones;
     };
     calcularImpuesto(){
-        return (((this._monto_bruto_anual)-(this._deducciones))*0,21)
+        return (((this._monto_bruto_anual)-(this._deducciones))*0.21)
     }
 };
 
